@@ -1,0 +1,25 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+*.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+#*.tfvars 
+#*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+
+# macOS
+.DS_Store
+
+# IDE/Editor folders
+.vscode/
+.idea/
